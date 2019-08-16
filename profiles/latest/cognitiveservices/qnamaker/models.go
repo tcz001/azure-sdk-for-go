@@ -47,6 +47,13 @@ const (
 	ValidationFailure ErrorCodeType = original.ValidationFailure
 )
 
+type KnowledgebaseEnvironmentType = original.KnowledgebaseEnvironmentType
+
+const (
+	KnowledgebaseEnvironmentTypeProd KnowledgebaseEnvironmentType = original.KnowledgebaseEnvironmentTypeProd
+	KnowledgebaseEnvironmentTypeTest KnowledgebaseEnvironmentType = original.KnowledgebaseEnvironmentTypeTest
+)
+
 type OperationStateType = original.OperationStateType
 
 const (
@@ -127,6 +134,9 @@ func PossibleEnvironmentTypeValues() []EnvironmentType {
 }
 func PossibleErrorCodeTypeValues() []ErrorCodeType {
 	return original.PossibleErrorCodeTypeValues()
+}
+func PossibleKnowledgebaseEnvironmentTypeValues() []KnowledgebaseEnvironmentType {
+	return original.PossibleKnowledgebaseEnvironmentTypeValues()
 }
 func PossibleOperationStateTypeValues() []OperationStateType {
 	return original.PossibleOperationStateTypeValues()
