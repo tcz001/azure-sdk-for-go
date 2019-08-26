@@ -1,4 +1,4 @@
-module github.com/tcz001/azure-sdk-for-go/v32.5.1
+module github.com/tcz001/azure-sdk-for-go/v33.0.0
 
 go 1.12
 
