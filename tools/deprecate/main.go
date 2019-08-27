@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/Azure/azure-sdk-for-go/tools/deprecate/cmd"
+	"github.com/tcz001/azure-sdk-for-go/tools/deprecate/cmd"
 )
 
 func main() {

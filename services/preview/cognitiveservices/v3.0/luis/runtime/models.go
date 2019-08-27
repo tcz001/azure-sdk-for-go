@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/runtime"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/runtime"
 
 // DynamicList defines an extension for a list entity.
 type DynamicList struct {

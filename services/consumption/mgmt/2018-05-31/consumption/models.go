@@ -31,7 +31,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2018-05-31/consumption"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/consumption/mgmt/2018-05-31/consumption"
 
 // Bound enumerates the values for bound.
 type Bound string

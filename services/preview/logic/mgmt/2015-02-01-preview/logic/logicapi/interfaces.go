@@ -19,7 +19,7 @@ package logicapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/logic/mgmt/2015-02-01-preview/logic"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/logic/mgmt/2015-02-01-preview/logic"
 	"github.com/Azure/go-autorest/autorest"
 )
 

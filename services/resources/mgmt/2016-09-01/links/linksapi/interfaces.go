@@ -19,7 +19,7 @@ package linksapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2016-09-01/links"
+	"github.com/tcz001/azure-sdk-for-go/services/resources/mgmt/2016-09-01/links"
 	"github.com/Azure/go-autorest/autorest"
 )
 

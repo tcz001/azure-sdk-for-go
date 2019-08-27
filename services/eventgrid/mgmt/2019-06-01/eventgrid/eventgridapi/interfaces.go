@@ -19,7 +19,7 @@ package eventgridapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/eventgrid/mgmt/2019-06-01/eventgrid"
+	"github.com/tcz001/azure-sdk-for-go/services/eventgrid/mgmt/2019-06-01/eventgrid"
 )
 
 // DomainsClientAPI contains the set of methods on the DomainsClient type.

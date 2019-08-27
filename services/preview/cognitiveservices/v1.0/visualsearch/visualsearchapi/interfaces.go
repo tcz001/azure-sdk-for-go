@@ -19,7 +19,7 @@ package visualsearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/visualsearch"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/visualsearch"
 	"io"
 )
 

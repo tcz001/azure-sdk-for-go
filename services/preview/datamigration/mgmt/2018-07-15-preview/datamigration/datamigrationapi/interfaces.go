@@ -19,7 +19,7 @@ package datamigrationapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/datamigration/mgmt/2018-07-15-preview/datamigration"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/datamigration/mgmt/2018-07-15-preview/datamigration"
 	"github.com/Azure/go-autorest/autorest"
 )
 

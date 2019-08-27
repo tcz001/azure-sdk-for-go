@@ -19,7 +19,7 @@ package botserviceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/botservice/mgmt/2018-07-12/botservice"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/botservice/mgmt/2018-07-12/botservice"
 	"github.com/Azure/go-autorest/autorest"
 )
 

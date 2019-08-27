@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/eventgrid/mgmt/2019-02-01-preview/eventgrid"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/eventgrid/mgmt/2019-02-01-preview/eventgrid"
 
 // DomainProvisioningState enumerates the values for domain provisioning state.
 type DomainProvisioningState string

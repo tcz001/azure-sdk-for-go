@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/Azure/azure-sdk-for-go/tools/versioner/cmd"
+import "github.com/tcz001/azure-sdk-for-go/tools/versioner/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,6 +1,6 @@
 package personalizer
 
-import "github.com/Azure/azure-sdk-for-go/version"
+import "github.com/tcz001/azure-sdk-for-go/version"
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //

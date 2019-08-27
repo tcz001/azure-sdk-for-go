@@ -19,7 +19,7 @@ package devicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/iothub/mgmt/2019-03-22-preview/devices"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/iothub/mgmt/2019-03-22-preview/devices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

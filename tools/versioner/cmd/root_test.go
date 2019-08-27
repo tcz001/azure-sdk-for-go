@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/report"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/tcz001/azure-sdk-for-go/tools/apidiff/report"
+	"github.com/tcz001/azure-sdk-for-go/tools/internal/modinfo"
 )
 
 var newline = "\n"
@@ -245,7 +245,7 @@ func (b byteBufferSeeker) Seek(offset int64, whence int) (int64, error) {
 
 func Test_updateGoModVerA(t *testing.T) {
 	// updates from v1 to v2
-	const before = "module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\ngo 1.12\n"
+	const before = "module github.com/tcz001/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\ngo 1.12\n"
 	buf := byteBufferSeeker{
 		buf: bytes.NewBuffer([]byte(before)),
 	}
@@ -253,7 +253,7 @@ func Test_updateGoModVerA(t *testing.T) {
 	if err != nil {
 		t.Fatalf("updateGoModVerA failed: %v", err)
 	}
-	const after = "module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\ngo 1.12\n"
+	const after = "module github.com/tcz001/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\ngo 1.12\n"
 	if !strings.EqualFold(buf.buf.String(), after) {
 		t.Fatalf("bad go.mod update, epected %s got %s", after, buf.buf.String())
 	}
@@ -261,7 +261,7 @@ func Test_updateGoModVerA(t *testing.T) {
 
 func Test_updateGoModVerB(t *testing.T) {
 	// updates from v2 to v3
-	const before = "module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\ngo 1.12\n"
+	const before = "module github.com/tcz001/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\ngo 1.12\n"
 	buf := byteBufferSeeker{
 		buf: bytes.NewBuffer([]byte(before)),
 	}
@@ -269,7 +269,7 @@ func Test_updateGoModVerB(t *testing.T) {
 	if err != nil {
 		t.Fatalf("updateGoModVerA failed: %v", err)
 	}
-	const after = "module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v3\n\ngo 1.12\n"
+	const after = "module github.com/tcz001/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v3\n\ngo 1.12\n"
 	if !strings.EqualFold(buf.buf.String(), after) {
 		t.Fatalf("bad go.mod update, epected %s got %s", after, buf.buf.String())
 	}
@@ -327,7 +327,7 @@ func Test_theCommandImplMajor(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to read go.mod file: %v", err)
 	}
-	const after = "module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariob/foo/v2\n\ngo 1.12\n"
+	const after = "module github.com/tcz001/azure-sdk-for-go/tools/testdata/scenariob/foo/v2\n\ngo 1.12\n"
 	if !strings.EqualFold(string(b), after) {
 		t.Fatalf("bad go.mod file, expected '%s' got '%s'", after, string(b))
 	}
@@ -364,7 +364,7 @@ func Test_theCommandImplMinor(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to read go.mod file: %v", err)
 	}
-	after := "module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioa/foo" + newline + newline + "go 1.12" + newline
+	after := "module github.com/tcz001/azure-sdk-for-go/tools/testdata/scenarioa/foo" + newline + newline + "go 1.12" + newline
 	if !strings.EqualFold(string(b), after) {
 		t.Fatalf("bad go.mod file, expected '%s' got '%s'", after, string(b))
 	}
@@ -401,7 +401,7 @@ func Test_theCommandImplPatch(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to read go.mod file: %v", err)
 	}
-	after := "module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioc/foo" + newline + newline + "go 1.12" + newline
+	after := "module github.com/tcz001/azure-sdk-for-go/tools/testdata/scenarioc/foo" + newline + newline + "go 1.12" + newline
 	if !strings.EqualFold(string(b), after) {
 		t.Fatalf("bad go.mod file, expected '%s' got '%s'", after, string(b))
 	}
@@ -436,7 +436,7 @@ func Test_theCommandImplNewMod(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to read go.mod file: %v", err)
 	}
-	after := "module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariof/foo" + newline + newline + "go 1.12" + newline
+	after := "module github.com/tcz001/azure-sdk-for-go/tools/testdata/scenariof/foo" + newline + newline + "go 1.12" + newline
 	if !strings.EqualFold(string(b), after) {
 		t.Fatalf("bad go.mod file, expected '%s' got '%s'", after, string(b))
 	}

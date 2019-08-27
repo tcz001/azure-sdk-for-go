@@ -19,7 +19,7 @@ package redisapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis"
+	"github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis"
 	"github.com/Azure/go-autorest/autorest"
 )
 

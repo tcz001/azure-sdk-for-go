@@ -19,7 +19,7 @@ package databoxapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/databox/mgmt/2018-01-01/databox"
+	"github.com/tcz001/azure-sdk-for-go/services/databox/mgmt/2018-01-01/databox"
 	"github.com/Azure/go-autorest/autorest"
 )
 

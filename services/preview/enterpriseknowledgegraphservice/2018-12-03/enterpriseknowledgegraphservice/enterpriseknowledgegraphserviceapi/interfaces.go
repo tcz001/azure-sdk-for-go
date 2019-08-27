@@ -19,7 +19,7 @@ package enterpriseknowledgegraphserviceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/enterpriseknowledgegraphservice/2018-12-03/enterpriseknowledgegraphservice"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/enterpriseknowledgegraphservice/2018-12-03/enterpriseknowledgegraphservice"
 	"github.com/Azure/go-autorest/autorest"
 )
 

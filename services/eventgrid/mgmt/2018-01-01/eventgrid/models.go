@@ -26,7 +26,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/eventgrid/mgmt/2018-01-01/eventgrid"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/eventgrid/mgmt/2018-01-01/eventgrid"
 
 // EndpointType enumerates the values for endpoint type.
 type EndpointType string

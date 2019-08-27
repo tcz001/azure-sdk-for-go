@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
+	"github.com/tcz001/azure-sdk-for-go/services/classic/management"
 )
 
 // TestIsResourceNotFoundError tests IsResourceNotFoundError with the

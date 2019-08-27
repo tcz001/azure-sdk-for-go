@@ -19,7 +19,7 @@ package insightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/appinsights/mgmt/2015-05-01/insights"
+	"github.com/tcz001/azure-sdk-for-go/services/appinsights/mgmt/2015-05-01/insights"
 	"github.com/Azure/go-autorest/autorest"
 )
 

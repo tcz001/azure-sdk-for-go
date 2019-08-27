@@ -19,7 +19,7 @@ package operationalinsightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
+	"github.com/tcz001/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
 	"github.com/Azure/go-autorest/autorest"
 )
 

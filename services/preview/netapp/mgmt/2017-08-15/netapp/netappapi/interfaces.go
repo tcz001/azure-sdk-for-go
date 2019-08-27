@@ -19,7 +19,7 @@ package netappapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/netapp/mgmt/2017-08-15/netapp"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/netapp/mgmt/2017-08-15/netapp"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

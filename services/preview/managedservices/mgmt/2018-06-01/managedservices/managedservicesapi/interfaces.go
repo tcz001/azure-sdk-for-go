@@ -19,7 +19,7 @@ package managedservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/managedservices/mgmt/2018-06-01/managedservices"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/managedservices/mgmt/2018-06-01/managedservices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

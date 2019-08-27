@@ -19,7 +19,7 @@ package mariadbapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/mariadb/mgmt/2018-06-01/mariadb"
+	"github.com/tcz001/azure-sdk-for-go/services/mariadb/mgmt/2018-06-01/mariadb"
 )
 
 // ServersClientAPI contains the set of methods on the ServersClient type.

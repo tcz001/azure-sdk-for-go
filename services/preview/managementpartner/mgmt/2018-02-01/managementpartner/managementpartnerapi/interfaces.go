@@ -19,7 +19,7 @@ package managementpartnerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/managementpartner/mgmt/2018-02-01/managementpartner"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/managementpartner/mgmt/2018-02-01/managementpartner"
 	"github.com/Azure/go-autorest/autorest"
 )
 

@@ -19,7 +19,7 @@ package iotcentralapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/iotcentral/mgmt/2018-09-01/iotcentral"
+	"github.com/tcz001/azure-sdk-for-go/services/iotcentral/mgmt/2018-09-01/iotcentral"
 )
 
 // AppsClientAPI contains the set of methods on the AppsClient type.

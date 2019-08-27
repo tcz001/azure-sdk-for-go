@@ -19,7 +19,7 @@ package billingapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/billing/mgmt/2017-04-24-preview/billing"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/billing/mgmt/2017-04-24-preview/billing"
 )
 
 // PeriodsClientAPI contains the set of methods on the PeriodsClient type.

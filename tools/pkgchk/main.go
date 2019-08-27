@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/Azure/azure-sdk-for-go/tools/pkgchk/cmd"
+import "github.com/tcz001/azure-sdk-for-go/tools/pkgchk/cmd"
 
 func main() {
 	cmd.Execute()

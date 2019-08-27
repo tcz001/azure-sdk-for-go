@@ -19,7 +19,7 @@ package mixedrealityapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
 	"github.com/Azure/go-autorest/autorest"
 )
 

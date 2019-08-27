@@ -19,7 +19,7 @@ package storageapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/storage/mgmt/2018-03-01-preview/storage"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/storage/mgmt/2018-03-01-preview/storage"
 	"github.com/Azure/go-autorest/autorest"
 )
 

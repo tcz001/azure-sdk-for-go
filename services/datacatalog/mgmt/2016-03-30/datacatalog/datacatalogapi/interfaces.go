@@ -19,7 +19,7 @@ package datacatalogapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/datacatalog/mgmt/2016-03-30/datacatalog"
+	"github.com/tcz001/azure-sdk-for-go/services/datacatalog/mgmt/2016-03-30/datacatalog"
 )
 
 // ADCOperationsClientAPI contains the set of methods on the ADCOperationsClient type.

@@ -19,7 +19,7 @@ package personalizerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/personalizer/v1.0/personalizer"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/personalizer/v1.0/personalizer"
 	"github.com/Azure/go-autorest/autorest"
 )
 

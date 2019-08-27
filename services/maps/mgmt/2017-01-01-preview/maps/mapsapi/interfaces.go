@@ -19,7 +19,7 @@ package mapsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/maps/mgmt/2017-01-01-preview/maps"
+	"github.com/tcz001/azure-sdk-for-go/services/maps/mgmt/2017-01-01-preview/maps"
 	"github.com/Azure/go-autorest/autorest"
 )
 

@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/customproviders/mgmt/2018-09-01-preview/customproviders"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/customproviders/mgmt/2018-09-01-preview/customproviders"
 
 // ActionRouting enumerates the values for action routing.
 type ActionRouting string

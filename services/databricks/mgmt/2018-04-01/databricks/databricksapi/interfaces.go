@@ -19,7 +19,7 @@ package databricksapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/databricks/mgmt/2018-04-01/databricks"
+	"github.com/tcz001/azure-sdk-for-go/services/databricks/mgmt/2018-04-01/databricks"
 )
 
 // WorkspacesClientAPI contains the set of methods on the WorkspacesClient type.

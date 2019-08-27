@@ -19,7 +19,7 @@ package managementgroupsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/resources/mgmt/2018-01-01-preview/managementgroups"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/resources/mgmt/2018-01-01-preview/managementgroups"
 	"github.com/Azure/go-autorest/autorest"
 )
 
