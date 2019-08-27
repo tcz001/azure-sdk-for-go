@@ -19,7 +19,7 @@ package streamanalyticsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/streamanalytics/mgmt/2016-03-01/streamanalytics"
+	"github.com/tcz001/azure-sdk-for-go/services/streamanalytics/mgmt/2016-03-01/streamanalytics"
 	"github.com/Azure/go-autorest/autorest"
 )
 

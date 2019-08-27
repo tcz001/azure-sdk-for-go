@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
 
 // AddRemove enumerates the values for add remove.
 type AddRemove string

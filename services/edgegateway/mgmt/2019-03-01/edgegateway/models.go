@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/edgegateway/mgmt/2019-03-01/edgegateway"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/edgegateway/mgmt/2019-03-01/edgegateway"
 
 // AccountType enumerates the values for account type.
 type AccountType string

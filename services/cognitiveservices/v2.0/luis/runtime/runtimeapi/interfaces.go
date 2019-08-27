@@ -19,7 +19,7 @@ package runtimeapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.0/luis/runtime"
+	"github.com/tcz001/azure-sdk-for-go/services/cognitiveservices/v2.0/luis/runtime"
 	"github.com/satori/go.uuid"
 )
 

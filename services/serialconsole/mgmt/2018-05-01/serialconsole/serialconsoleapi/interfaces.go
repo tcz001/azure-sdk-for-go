@@ -19,7 +19,7 @@ package serialconsoleapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
+	"github.com/tcz001/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
 )
 
 // ListClientAPI contains the set of methods on the ListClient type.

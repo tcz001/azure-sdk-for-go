@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/peering/mgmt/2019-03-01-preview/peering"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/peering/mgmt/2019-03-01-preview/peering"
 
 // ConnectionState enumerates the values for connection state.
 type ConnectionState string

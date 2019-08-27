@@ -19,7 +19,7 @@ package iothubapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/provisioningservices/mgmt/2017-11-15/iothub"
+	"github.com/tcz001/azure-sdk-for-go/services/provisioningservices/mgmt/2017-11-15/iothub"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
 )

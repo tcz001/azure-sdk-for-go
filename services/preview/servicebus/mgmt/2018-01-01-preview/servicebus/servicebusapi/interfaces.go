@@ -19,7 +19,7 @@ package servicebusapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
 	"github.com/Azure/go-autorest/autorest"
 )
 

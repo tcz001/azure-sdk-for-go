@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/netapp/mgmt/2019-05-01/netapp"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/netapp/mgmt/2019-05-01/netapp"
 
 // CheckNameResourceTypes enumerates the values for check name resource types.
 type CheckNameResourceTypes string

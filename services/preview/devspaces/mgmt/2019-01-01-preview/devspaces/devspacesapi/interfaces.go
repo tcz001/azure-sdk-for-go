@@ -19,7 +19,7 @@ package devspacesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/devspaces/mgmt/2019-01-01-preview/devspaces"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/devspaces/mgmt/2019-01-01-preview/devspaces"
 )
 
 // ContainerHostMappingsClientAPI contains the set of methods on the ContainerHostMappingsClient type.

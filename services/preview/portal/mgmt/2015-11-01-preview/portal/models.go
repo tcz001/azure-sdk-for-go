@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/portal/mgmt/2015-11-01-preview/portal"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/portal/mgmt/2015-11-01-preview/portal"
 
 // Dashboard the shared dashboard resource definition.
 type Dashboard struct {

@@ -19,7 +19,7 @@ package aadapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/aad/mgmt/2017-04-01/aad"
+	"github.com/tcz001/azure-sdk-for-go/services/aad/mgmt/2017-04-01/aad"
 	"github.com/Azure/go-autorest/autorest"
 )
 

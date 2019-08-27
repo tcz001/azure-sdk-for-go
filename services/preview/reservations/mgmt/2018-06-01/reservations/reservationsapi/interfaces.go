@@ -19,7 +19,7 @@ package reservationsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/reservations/mgmt/2018-06-01/reservations"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/reservations/mgmt/2018-06-01/reservations"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

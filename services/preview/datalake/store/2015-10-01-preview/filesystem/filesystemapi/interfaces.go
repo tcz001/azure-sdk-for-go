@@ -19,7 +19,7 @@ package filesystemapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/datalake/store/2015-10-01-preview/filesystem"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/datalake/store/2015-10-01-preview/filesystem"
 	"github.com/Azure/go-autorest/autorest"
 	"io"
 )

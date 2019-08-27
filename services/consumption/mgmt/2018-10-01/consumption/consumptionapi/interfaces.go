@@ -19,7 +19,7 @@ package consumptionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2018-10-01/consumption"
+	"github.com/tcz001/azure-sdk-for-go/services/consumption/mgmt/2018-10-01/consumption"
 	"github.com/Azure/go-autorest/autorest"
 )
 

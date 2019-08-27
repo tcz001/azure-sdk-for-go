@@ -19,7 +19,7 @@ package hdinsightapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/hdinsight/2018-11-01-preview/hdinsight"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/hdinsight/2018-11-01-preview/hdinsight"
 	"io"
 )
 

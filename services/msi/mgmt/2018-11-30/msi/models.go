@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/msi/mgmt/2018-11-30/msi"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/msi/mgmt/2018-11-30/msi"
 
 // UserAssignedIdentities enumerates the values for user assigned identities.
 type UserAssignedIdentities string

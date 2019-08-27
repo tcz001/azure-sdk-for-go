@@ -19,7 +19,7 @@ package insightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/appinsights/v1/insights"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/appinsights/v1/insights"
 )
 
 // MetricsClientAPI contains the set of methods on the MetricsClient type.

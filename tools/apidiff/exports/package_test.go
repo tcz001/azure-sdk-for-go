@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/exports"
+	"github.com/tcz001/azure-sdk-for-go/tools/apidiff/exports"
 )
 
 var pkg exports.Package

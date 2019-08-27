@@ -19,7 +19,7 @@ package locksapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2015-01-01/locks"
+	"github.com/tcz001/azure-sdk-for-go/services/resources/mgmt/2015-01-01/locks"
 	"github.com/Azure/go-autorest/autorest"
 )
 

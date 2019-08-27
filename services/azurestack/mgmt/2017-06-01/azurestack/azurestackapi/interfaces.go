@@ -19,7 +19,7 @@ package azurestackapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/azurestack/mgmt/2017-06-01/azurestack"
+	"github.com/tcz001/azure-sdk-for-go/services/azurestack/mgmt/2017-06-01/azurestack"
 	"github.com/Azure/go-autorest/autorest"
 )
 

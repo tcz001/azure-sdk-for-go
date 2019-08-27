@@ -19,7 +19,7 @@ package engagementfabricapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
 	"github.com/Azure/go-autorest/autorest"
 )
 

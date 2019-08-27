@@ -19,7 +19,7 @@ package newssearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/newssearch"
+	"github.com/tcz001/azure-sdk-for-go/services/cognitiveservices/v1.0/newssearch"
 )
 
 // NewsClientAPI contains the set of methods on the NewsClient type.

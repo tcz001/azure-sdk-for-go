@@ -19,7 +19,7 @@ package edgegatewayapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/edgegateway/mgmt/2019-03-01/edgegateway"
+	"github.com/tcz001/azure-sdk-for-go/services/edgegateway/mgmt/2019-03-01/edgegateway"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

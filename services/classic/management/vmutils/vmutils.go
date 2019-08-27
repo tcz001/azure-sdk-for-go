@@ -21,7 +21,7 @@ package vmutils
 import (
 	"fmt"
 
-	vm "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachine"
+	vm "github.com/tcz001/azure-sdk-for-go/services/classic/management/virtualmachine"
 )
 
 const (

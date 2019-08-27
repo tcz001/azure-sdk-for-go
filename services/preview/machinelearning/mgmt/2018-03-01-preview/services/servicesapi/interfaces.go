@@ -19,7 +19,7 @@ package servicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearning/mgmt/2018-03-01-preview/services"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/machinelearning/mgmt/2018-03-01-preview/services"
 	"github.com/Azure/go-autorest/autorest"
 )
 

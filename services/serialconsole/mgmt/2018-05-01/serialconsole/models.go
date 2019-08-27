@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
 
 // DeploymentValidateResult details on Failure
 type DeploymentValidateResult struct {

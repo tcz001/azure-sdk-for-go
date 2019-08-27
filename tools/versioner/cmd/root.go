@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/tcz001/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/tcz001/azure-sdk-for-go/tools/internal/modinfo"
 	"github.com/Masterminds/semver"
 	"github.com/spf13/cobra"
 )
@@ -172,12 +172,12 @@ func forInplaceUpdate(lmv, stage string, mod modinfo.Provider) (string, error) {
 // it's assumed that the staging directory is a subdirectory of the actual package directory.
 func findLatestMajorVersion(stage string) (string, error) {
 	// example input:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/stage
+	// ~/work/src/github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/stage
 	// finds:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// ~/work/src/github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis
+	// ~/work/src/github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	// returns:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// ~/work/src/github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	parent := filepath.Dir(stage)
 	dirs, err := modinfo.GetModuleSubdirs(parent)
 	if err != nil {
@@ -247,9 +247,9 @@ func getTags(repoPath, tagPrefix string) ([]string, error) {
 }
 
 // returns the tag prefix for the specified package.
-// assumes repo root of github.com/Azure/azure-sdk-for-go/
+// assumes repo root of github.com/tcz001/azure-sdk-for-go/
 func getTagPrefix(pkgDir string) (string, error) {
-	// e.g. /work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// e.g. /work/src/github.com/tcz001/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	// would return services/redis/mgmt/2018-03-01/redis/v2.0.0
 	repoRoot := filepath.Join("github.com", "Azure", "azure-sdk-for-go")
 	i := strings.Index(pkgDir, repoRoot)

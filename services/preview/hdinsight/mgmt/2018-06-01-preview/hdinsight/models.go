@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/hdinsight/mgmt/2018-06-01-preview/hdinsight"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/hdinsight/mgmt/2018-06-01-preview/hdinsight"
 
 // ApplicationHTTPSEndpointAccessMode enumerates the values for application https endpoint access mode.
 type ApplicationHTTPSEndpointAccessMode string

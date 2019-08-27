@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/migrate/mgmt/2018-09-01-preview/migrate"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/preview/migrate/mgmt/2018-09-01-preview/migrate"
 
 // CleanupState enumerates the values for cleanup state.
 type CleanupState string

@@ -19,7 +19,7 @@ package faceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/face"
+	"github.com/tcz001/azure-sdk-for-go/services/cognitiveservices/v1.0/face"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 	"io"

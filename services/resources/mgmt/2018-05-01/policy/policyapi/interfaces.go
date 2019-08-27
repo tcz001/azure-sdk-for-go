@@ -19,7 +19,7 @@ package policyapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2018-05-01/policy"
+	"github.com/tcz001/azure-sdk-for-go/services/resources/mgmt/2018-05-01/policy"
 	"github.com/Azure/go-autorest/autorest"
 )
 

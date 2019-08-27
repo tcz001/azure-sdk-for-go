@@ -19,7 +19,7 @@ package searchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/search/mgmt/2015-08-19/search"
+	"github.com/tcz001/azure-sdk-for-go/services/search/mgmt/2015-08-19/search"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 )

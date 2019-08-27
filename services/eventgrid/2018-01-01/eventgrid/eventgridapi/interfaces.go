@@ -19,7 +19,7 @@ package eventgridapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/eventgrid/2018-01-01/eventgrid"
+	"github.com/tcz001/azure-sdk-for-go/services/eventgrid/2018-01-01/eventgrid"
 	"github.com/Azure/go-autorest/autorest"
 )
 

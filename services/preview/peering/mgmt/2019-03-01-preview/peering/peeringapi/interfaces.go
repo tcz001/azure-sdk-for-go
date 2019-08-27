@@ -19,7 +19,7 @@ package peeringapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/peering/mgmt/2019-03-01-preview/peering"
+	"github.com/tcz001/azure-sdk-for-go/services/preview/peering/mgmt/2019-03-01-preview/peering"
 	"github.com/Azure/go-autorest/autorest"
 )
 

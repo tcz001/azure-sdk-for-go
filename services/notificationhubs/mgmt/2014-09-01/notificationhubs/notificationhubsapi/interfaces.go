@@ -19,7 +19,7 @@ package notificationhubsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/notificationhubs/mgmt/2014-09-01/notificationhubs"
+	"github.com/tcz001/azure-sdk-for-go/services/notificationhubs/mgmt/2014-09-01/notificationhubs"
 	"github.com/Azure/go-autorest/autorest"
 )
 

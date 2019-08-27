@@ -23,7 +23,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.0/anomalyfinder"
+const fqdn = "github.com/tcz001/azure-sdk-for-go/services/cognitiveservices/v2.0/anomalyfinder"
 
 // Granularity enumerates the values for granularity.
 type Granularity string
